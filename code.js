@@ -9,3 +9,12 @@ function fib(n) {
         return fibNums;
     }
 }
+
+/*
+2)
+Invariant: The nth element of fibNums will always be the sum
+of the n - 1 and the n - 2 elements for any n bigger than 2.
+I say for any n bigger than 2 because when n is 0 or 1 then 
+there is not a n - 1 or n - 2 term to add, the fibonacci value 
+if these numbers is themselves. 
+*/
